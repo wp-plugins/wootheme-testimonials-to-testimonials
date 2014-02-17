@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: WooTheme Testimonials to Testimonials by Aihrus
+ * Plugin Name: Testimonials – WooTheme Testimonials Migrator
  * Plugin URI: http://wordpress.org/plugins/wootheme-testimonials-to-testimonials/
  * Description: Migrate WooTheme Testimonials entries to Testimonials by Aihrus custom post types.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: Michael Cannon
  * Author URI: http://aihr.us/resume/
  * License: GPLv2 or later
@@ -35,8 +35,8 @@ define( 'WTT2T_REQ_BASE', 'testimonials-widget/testimonials-widget.php' );
 define( 'WTT2T_REQ_BASE_PREM', 'testimonials-widget-premium/testimonials-widget-premium.php' );
 define( 'WTT2T_REQ_NAME', 'Testimonials by Aihrus' );
 define( 'WTT2T_REQ_SLUG', 'testimonials-widget' );
-define( 'WTT2T_REQ_VERSION', '2.18.0' );
-define( 'WTT2T_VERSION', '1.1.0' );
+define( 'WTT2T_REQ_VERSION', '2.18.1' );
+define( 'WTT2T_VERSION', '1.1.1' );
 
 if ( defined( 'TW_DIR_LIB' ) ) {
 	define( 'WTT2T_DIR_LIB_ALT', TW_DIR_LIB );

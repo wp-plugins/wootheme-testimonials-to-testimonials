@@ -1,6 +1,6 @@
 # WooTheme Testimonials to Testimonials plugin for WordPress
 
-[![Build Status](https://travis-ci.org/michael-cannon/wootheme-testimonials-to-testimonials.png?branch=master)](https://travis-ci.org/michael-cannon/wootheme-testimonials-to-testimonials)
+[![Codeship status](https://www.codeship.io/projects/56abd720-72bc-0131-ab14-4e46b2fa20d2/status)](https://www.codeship.io/projects/13668)
 [![ProjectStatus](http://stillmaintained.com/michael-cannon/wootheme-testimonials-to-testimonials.png)](http://stillmaintained.com/michael-cannon/wootheme-testimonials-to-testimonials)
 
 ## Welcome to the WooTheme Testimonials to Testimonials Github repository
