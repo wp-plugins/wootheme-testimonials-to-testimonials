@@ -1,6 +1,6 @@
 <?php
 /*
-	Copyright 2013 Michael Cannon (email: mc@aihr.us)
+	Copyright 2014 Michael Cannon (email: mc@aihr.us)
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License, version 2, as
@@ -46,22 +46,20 @@ if ( ! function_exists( 'aihr_notice_version' ) ) {
 
 
 function wtt2t_requirements_check() {
-	$valid_requirements = true;
 	if ( ! is_plugin_active( WTT2T_REQ_BASE ) && ! is_plugin_active( WTT2T_REQ_BASE_PREM ) ) {
-		$valid_requirements = false;
 		add_action( 'admin_notices', 'wtt2t_notice_version' );
+
+		return false;
 	}
 
-	if ( ! $valid_requirements ) {
-		deactivate_plugins( WTT2T_BASE );
-	}
-
-	return $valid_requirements;
+	return true;
 }
 
 
 function wtt2t_notice_version() {
 	aihr_notice_version( WTT2T_REQ_BASE, WTT2T_REQ_NAME, WTT2T_REQ_SLUG, WTT2T_REQ_VERSION, WTT2T_NAME );
+	
+	deactivate_plugins( WTT2T_BASE );
 }
 
 ?>
