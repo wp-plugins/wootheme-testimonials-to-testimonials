@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright 2013 Michael Cannon (email: mc@aihr.us)
+ * Copyright 2014 Michael Cannon (email: mc@aihr.us)
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2, as
  * published by the Free Software Foundation.
@@ -14,7 +14,7 @@
  */
 
 require_once WTT2T_DIR_INC . 'class-wootheme-testimonials-to-testimonials-settings.php';
-require_once WTT2T_DIR_LIB_ALT . 'aihrus-framework/class-aihrus-common.php';
+require_once WTT2T_DIR_LIB_ALT . 'aihrus-framework/includes/class-aihrus-common.php';
 
 if ( class_exists( 'Wootheme_Testimonials_to_Testimonials' ) )
 	return;
@@ -555,8 +555,9 @@ class Wootheme_Testimonials_to_Testimonials extends Aihrus_Common {
 			if ( $prior_version < '1.0.0' )
 				add_action( 'admin_notices', array( __CLASS__, 'notice_1_0_0' ) );
 
-			if ( $prior_version < self::VERSION )
+			if ( $prior_version < self::VERSION ) {
 				do_action( 'wtt2t_update' );
+			}
 
 			wtt2t_set_option( 'admin_notices' );
 		}
@@ -599,7 +600,8 @@ class Wootheme_Testimonials_to_Testimonials extends Aihrus_Common {
 	public static function version_check() {
 		$valid_version = true;
 		if ( ! $valid_version ) {
-			deactivate_plugins( self::BASE );
+			$deactivate_reason = esc_html__( 'Failed version check', 'wootheme-testimonials-to-testimonials' );
+			aihr_deactivate_plugin( self::BASE, WTT2T_NAME, $deactivate_reason );
 			self::check_notices();
 		}
 
@@ -609,32 +611,6 @@ class Wootheme_Testimonials_to_Testimonials extends Aihrus_Common {
 
 	public static function call_scripts_styles( $atts ) {
 		self::scripts( $atts );
-	}
-
-
-	public static function get_scripts() {
-		if ( empty( self::$scripts ) )
-			return;
-
-		foreach ( self::$scripts as $script )
-			echo $script;
-	}
-
-
-	public static function get_styles() {
-		if ( empty( self::$styles ) )
-			return;
-
-		if ( empty( self::$styles_called ) ) {
-			echo '<style>';
-
-			foreach ( self::$styles as $style )
-				echo $style;
-
-			echo '</style>';
-
-			self::$styles_called = true;
-		}
 	}
 
 

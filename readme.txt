@@ -5,7 +5,7 @@ Donate link: http://aihr.us/about-aihrus/donate/
 Tags: woothemes, migration, convert, testimonials, testimonials widget
 Requires at least: 3.6
 Tested up to: 3.9.0
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -112,6 +112,10 @@ See [CHANGELOG](https://github.com/michael-cannon/wootheme-testimonials-to-testi
 
 
 == Upgrade Notice ==
+
+= 1.1.2 =
+
+* Require Testimonials by Aihrus 2.19.0
 
 = 1.1.1 =
 

@@ -2,6 +2,12 @@
 
 ## master
 
+## 1.1.2
+* Require Aihrus 1.1.0
+* Require Testimonials by Aihrus 2.19.0
+* Update Aihrus integration
+* Update copyright year
+
 ## 1.1.1
 * Coding standards update
 * Require Testimonials by Aihrus 2.18.1
