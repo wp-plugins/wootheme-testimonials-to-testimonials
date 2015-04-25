@@ -1,6 +1,6 @@
 === WooTheme Testimonials to Testimonials by Aihrus ===
 
-Contributors: comprock
+Contributors: comprock, saurabhd
 Donate link: http://aihr.us/about-aihrus/donate/
 Tags: woothemes, migration, convert, testimonials, testimonials widget
 Requires at least: 3.6
