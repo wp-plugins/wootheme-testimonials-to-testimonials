@@ -1,6 +1,6 @@
-# API WooTheme Testimonials to Testimonials
+# API WooTheme Testimonials to Testimonials Widget
 
-The [WooTheme Testimonials to Testimonials plugin](http://wordpress.org/plugins/wootheme-testimonials-to-testimonials/) comes with its own set of actions and filters, as described below.
+The [WooTheme Testimonials to Testimonials Widget plugin](http://wordpress.org/plugins/wootheme-testimonials-to-testimonials/) comes with its own set of actions and filters, as described below.
 
 ## Actions
 
@@ -56,4 +56,4 @@ The [WooTheme Testimonials to Testimonials plugin](http://wordpress.org/plugins/
 
 ## Need More?
 
-Further examples and more can be found by reading and searching the [WooTheme Testimonials to Testimonials Knowledge Base](https://aihrus.zendesk.com/categories/20104507-Testimonials-Widget) and [source code](https://github.com/michael-cannon/wootheme-testimonials-to-testimonials).
+Further examples and more can be found by reading and searching the [source code](https://github.com/michael-cannon/wootheme-testimonials-to-testimonials).

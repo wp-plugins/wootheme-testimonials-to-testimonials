@@ -1,6 +1,6 @@
 <?php
 /*
-	Copyright 2014 Michael Cannon (email: mc@aihr.us)
+	Copyright 2015 Axelerant (email: info@axelerant.com)
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License, version 2, as
@@ -260,8 +260,8 @@ function wtt2t_get_options() {
 function wtt2t_get_option( $option, $default = null ) {
 	$options = get_option( Wootheme_Testimonials_to_Testimonials_Settings::ID, null );
 
-	if ( isset( $options[$option] ) )
-		return $options[$option];
+	if ( isset( $options[ $option ] ) )
+		return $options[ $option ];
 	else
 		return $default;
 }
@@ -273,7 +273,7 @@ function wtt2t_set_option( $option, $value = null ) {
 	if ( ! is_array( $options ) )
 		$options = array();
 
-	$options[$option] = $value;
+	$options[ $option ] = $value;
 	update_option( Wootheme_Testimonials_to_Testimonials_Settings::ID, $options );
 }
 
