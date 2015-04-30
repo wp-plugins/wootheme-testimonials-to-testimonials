@@ -1,16 +1,22 @@
-# CHANGELOG WooTheme Testimonials to Testimonials by Aihrus
+# CHANGELOG WooTheme Testimonials to Testimonials Widget
 
 ## master
 
+## 1.2.0
+* Change branding from Aihrus to Axelerant
+* Update copyright text
+* Update plugin name
+* Update PHPCS to WordPress Core
+
 ## 1.1.2
 * Require Aihrus 1.1.0
-* Require Testimonials by Aihrus 2.19.0
+* Require Testimonials 2.19.0
 * Update Aihrus integration
 * Update copyright year
 
 ## 1.1.1
 * Coding standards update
-* Require Testimonials by Aihrus 2.18.1
+* Require Testimonials 2.18.1
 * Revise Plugin Name: Testimonials – WooTheme Testimonials Migrator
 
 ## 1.1.0
