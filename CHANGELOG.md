@@ -2,6 +2,9 @@
 
 ## master
 
+## 1.2.1
+* Update store branding
+
 ## 1.2.0
 * Change branding from Aihrus to Axelerant
 * Update copyright text

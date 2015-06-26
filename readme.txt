@@ -1,11 +1,11 @@
 === WooTheme Testimonials to Testimonials Widget ===
 
-Contributors: comprock, saurabhd
-Donate link: http://axelerant.com/about-axelerant/donate/
+Contributors: comprock,saurabhd,subharanjan
+Donate link: https://axelerant.com/about-axelerant/donate/
 Tags: woothemes, migration, convert, testimonials, testimonials widget
 Requires at least: 3.9.2
-Tested up to: 4.2.0
-Stable tag: 1.2.0
+Tested up to: 4.3.0
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -95,7 +95,7 @@ Migrate WooTheme Testimonials entries to Testimonials Widget custom post types f
 1. [Open WooTheme Testimonials to Testimonials Widget Issues](https://github.com/michael-cannon/wootheme-testimonials-to-testimonials/issues) - review and submit bug reports and enhancement requests
 1. [WooTheme Testimonials to Testimonials Widget Support on WordPress](http://wordpress.org/support/plugin/wootheme-testimonials-to-testimonials) - ask questions and review responses
 1. [Contribute Code to WooTheme Testimonials to Testimonials Widget](https://github.com/michael-cannon/wootheme-testimonials-to-testimonials/blob/master/CONTRIBUTING.md)
-1. [Beta Testers Needed](http://axelerant.com/become-beta-tester/) - get the latest WooTheme Testimonials to Testimonials Widget version
+1. [Beta Testers Needed](http://store.axelerant.com/become-beta-tester/) - get the latest WooTheme Testimonials to Testimonials Widget version
 
 
 == Screenshots ==
@@ -137,6 +137,6 @@ TBD
 
 == Localization ==
 
-You can translate this plugin into your own language if it's not done so already. The localization file `wootheme-testimonials-to-testimonials.pot` can be found in the `languages` folder of this plugin. After translation, please [send the localized file](http://axelerant.com/contact-axelerant/) for plugin inclusion.
+You can translate this plugin into your own language if it's not done so already. The localization file `wootheme-testimonials-to-testimonials.pot` can be found in the `languages` folder of this plugin. After translation, please [send the localized file](https://axelerant.com/contact-axelerant/) for plugin inclusion.
 
 **[How do I localize?](https://nodedesk.zendesk.com/hc/en-us/articles/202294892)**
