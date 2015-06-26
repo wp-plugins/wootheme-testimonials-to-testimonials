@@ -3,9 +3,9 @@
  * Plugin Name: Testimonials Widget – WooTheme Testimonials Migrator
  * Plugin URI: http://wordpress.org/plugins/wootheme-testimonials-to-testimonials/
  * Description: Migrate WooTheme Testimonials entries to Testimonials custom post types.
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: Axelerant
- * Author URI: http://axelerant.com/
+ * Author URI: https://axelerant.com/
  * License: GPLv2 or later
  * Text Domain: wootheme-testimonials-to-testimonials
  * Domain Path: /languages
@@ -13,7 +13,7 @@
 
 
 /**
- * Copyright 2015 Axelerant (email: info@axelerant.com)
+ * Copyright 2015 Axelerant
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2, as
  * published by the Free Software Foundation.
@@ -35,8 +35,8 @@ define( 'WTT2T_REQ_BASE', 'testimonials-widget/testimonials-widget.php' );
 define( 'WTT2T_REQ_BASE_PREM', 'testimonials-widget-premium/testimonials-widget-premium.php' );
 define( 'WTT2T_REQ_NAME', 'Testimonials Widget' );
 define( 'WTT2T_REQ_SLUG', 'testimonials-widget' );
-define( 'WTT2T_REQ_VERSION', '3.1.0' );
-define( 'WTT2T_VERSION', '1.2.0' );
+define( 'WTT2T_REQ_VERSION', '3.2.0' );
+define( 'WTT2T_VERSION', '1.2.1' );
 
 if ( defined( 'TW_DIR_LIB' ) ) {
 	define( 'WTT2T_DIR_LIB_ALT', TW_DIR_LIB );
